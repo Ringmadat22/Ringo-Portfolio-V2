@@ -5,6 +5,7 @@ function App() {
   const particlesInit = async (main) => {
     await loadFull(main);
   };
+  
 
   return (
     <div className="App">
