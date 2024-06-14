@@ -4,6 +4,7 @@ import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 import Home from './Home';
 import '../css/styles.css'; // Create a CSS file to handle the styling
+import Navbar from '../components/navbar'
 
 const Hero = () => {
   const [init, setInit] = useState(false);
@@ -92,6 +93,7 @@ const Hero = () => {
     <div className="hero">
       <Particles id="tsparticles" particlesLoaded={particlesLoaded} options={options} />
       <div className="hero-content">
+        <Navbar />
         <Home />
       </div>
     </div>
