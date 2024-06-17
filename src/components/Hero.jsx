@@ -96,25 +96,25 @@ const Hero = () => {
       <div className="hero-content">
         <Navbar />
         <section className=" mt-20 w-full flex-col flex justify-center items-center align-center">
-          <div className="bg-blue-300 m-10 w-5/6 ">
+          <div className="bg-blue-300 m-10 w-5/6 rounded-lg ">
             <div>
             <About />
             </div>
           </div>
 
-          <div className="bg-blue-300 mb-10 w-5/6 ">
+          <div className="bg-blue-300 mb-10 w-5/6 rounded-lg ">
             <div>
             <Home />
             </div>
           </div>
 
-          <div className="bg-blue-300 mb-10 w-5/6 ">
+          <div className="bg-blue-300 mb-10 w-5/6 rounded-lg">
             <div>
             <About />
             </div>
           </div>
 
-          <div className="bg-blue-300 w-5/6 ">
+          <div className="bg-blue-300 w-5/6 rounded-lg ">
             <div>
             <About />
             </div>
