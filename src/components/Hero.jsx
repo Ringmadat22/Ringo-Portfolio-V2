@@ -5,6 +5,7 @@ import { loadSlim } from "@tsparticles/slim";
 import Home from './Home';
 import '../css/styles.css'; // Create a CSS file to handle the styling
 import Navbar from '../components/navbar'
+import About from '../components/About'
 
 const Hero = () => {
   const [init, setInit] = useState(false);
@@ -94,7 +95,31 @@ const Hero = () => {
       <Particles id="tsparticles" particlesLoaded={particlesLoaded} options={options} />
       <div className="hero-content">
         <Navbar />
-        <Home />
+        <section className=" mt-20 w-full flex-col flex justify-center items-center align-center">
+          <div className="bg-blue-300 m-10 w-5/6 ">
+            <div>
+            <About />
+            </div>
+          </div>
+
+          <div className="bg-blue-300 mb-10 w-5/6 ">
+            <div>
+            <Home />
+            </div>
+          </div>
+
+          <div className="bg-blue-300 mb-10 w-5/6 ">
+            <div>
+            <About />
+            </div>
+          </div>
+
+          <div className="bg-blue-300 w-5/6 ">
+            <div>
+            <About />
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   );
