@@ -99,6 +99,7 @@ const Hero = () => {
           <div className="bg-blue-300 m-10 w-5/6 rounded-lg ">
             <div>
             <About />
+            
             </div>
           </div>
 
