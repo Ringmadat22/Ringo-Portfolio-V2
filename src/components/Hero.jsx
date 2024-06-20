@@ -26,7 +26,7 @@ const Hero = () => {
     () => ({
       background: {
         color: {
-          value: "#0d47a1",
+          value: "bg-base-100",
         },
       },
       fpsLimit: 60,
@@ -93,7 +93,7 @@ const Hero = () => {
   return (
     <div className="hero">
       <Particles id="tsparticles" particlesLoaded={particlesLoaded} options={options} />
-      <div className="hero-content">
+      <div className="hero-content w-full bg-beige-300">
         <Navbar />
         <section className=" mt-20 w-full flex-col flex justify-center items-center align-center">
           <div className="bg-blue-300 m-10 w-5/6 rounded-lg ">
@@ -102,10 +102,10 @@ const Hero = () => {
             
             </div>
           </div>
-
+∏
           <div className="bg-blue-300 mb-10 w-5/6 rounded-lg ">
             <div>
-            <Home />
+            <Home />∏
             </div>
           </div>
 
