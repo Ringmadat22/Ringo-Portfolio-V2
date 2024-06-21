@@ -93,29 +93,28 @@ const Hero = () => {
   return (
     <div className="hero">
       <Particles id="tsparticles" particlesLoaded={particlesLoaded} options={options} />
-      <div className="hero-content w-full bg-beige-300">
+      <div className="hero-content w-full ">
         <Navbar />
-        <section className=" mt-20 w-full flex-col flex justify-center items-center align-center">
-          <div className="bg-blue-300 m-10 w-5/6 rounded-lg ">
+        <section className=" mt-10 w-full flex-col flex justify-center items-center align-center">
+          <div className="bg-base-300 w-full bg-blue-300 m-4 w-5/6 rounded-lg ">
             <div>
             <About />
             
             </div>
           </div>
-∏
-          <div className="bg-blue-300 mb-10 w-5/6 rounded-lg ">
+          <div className="bg-base-300 w-full  p-6 mb-4 w-5/6 rounded-lg ">
             <div>
-            <Home />∏
+            <Home />
             </div>
           </div>
 
-          <div className="bg-blue-300 mb-10 w-5/6 rounded-lg">
+          <div className="bg-base-300 mb-10 w-full rounded-lg">
             <div>
             <About />
             </div>
           </div>
 
-          <div className="bg-blue-300 w-5/6 rounded-lg ">
+          <div className="bg-base-300 w-full rounded-lg ">
             <div>
             <About />
             </div>
