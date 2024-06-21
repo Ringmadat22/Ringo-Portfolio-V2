@@ -26,7 +26,7 @@ const Hero = () => {
     () => ({
       background: {
         color: {
-          value: "bg-base-100",
+          value: "bg-base",
         },
       },
       fpsLimit: 60,
@@ -96,7 +96,7 @@ const Hero = () => {
       <div className="hero-content w-full ">
         <Navbar />
         <section className=" mt-10 w-full flex-col flex justify-center items-center align-center">
-          <div className="bg-base-300 w-full bg-blue-300 m-4 w-5/6 rounded-lg ">
+          <div className="bg-base-300 w-full  m-4 w-5/6 rounded-lg ">
             <div>
             <About />
             

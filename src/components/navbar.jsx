@@ -1,4 +1,5 @@
 import React from "react";
+import { FaFacebookF } from "react-icons/fa";
 
 function Navbar() {
   // const [isOpen, setIsOpen] = useState(false);
@@ -69,7 +70,7 @@ function Navbar() {
     //     </div>
     // </section>
     <>
-      <div className="navbar border shadow-lg rounded-xl mt-2 w-full bg-base-100">
+      <div className="navbar border shadow-lg rounded-xl mt-2 w-full bg-base-300">
         <div className="navbar-start">
           <div className="dropdown">
             <div
@@ -140,13 +141,17 @@ function Navbar() {
             </svg>
           </button>
           <button className="btn btn-ghost btn-circle">
-            <div className="indicator">
+            <FaFacebookF />
+          </button>
+          <button title="Download CV" className="btn btn-ghost bg-sky-500 hover:bg-sky-700 w-30 ml-2 text-xs">
+            {/* <div className="indicator">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
 </svg>
 
               <span className="badge badge-xs badge-primary indicator-item"></span>
-            </div>
+            </div> */}
+            Download CV
           </button>
         </div>
       </div>
